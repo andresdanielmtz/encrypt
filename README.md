@@ -3,5 +3,5 @@
 
 ### Integrantes 
 - Andrés Daniel Martínez, A00227463
-- Santiago Eduardo Poblete, A0125
 - Daniel Fernández, A01254659
+- Santiago Eduardo Poblete, A01254609
