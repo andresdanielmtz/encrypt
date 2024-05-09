@@ -1,4 +1,4 @@
-#!/Users/autummata/code/semanatec_herramientas/encrypt/encrypt/bin/python3.12
+#!/Users/autummata/code/semanatec_herramientas/encrypt/encrypt/encrypt-venv/bin/python3.12
 # -*- coding: utf-8 -*-
 import re
 import sys

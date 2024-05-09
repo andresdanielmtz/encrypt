@@ -5,7 +5,7 @@ import random
 def create_password() -> str:
     password = ''
     for i in range(0, 4):
-        password += random.randint(0, 9)
+        password += str(random.randint(0, 9))
     return password
 
 def zip_folder_with_password(folder_path: str, output_zip_file: str, password: str) -> None:
@@ -24,5 +24,6 @@ if __name__ == "__main__":
     folder_path = input("Enter the path to the folder you want to zip: ")
     output_zip_file = input("Enter the output zip file name: ")
     password = create_password()  # Optionally use user input instead
+    print(f"Password: {password}")
     zip_folder_with_password(folder_path, output_zip_file, password)
     print("Folder has been zipped and password-protected.")
